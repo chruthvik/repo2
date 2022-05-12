@@ -1,3 +1,6 @@
+process.stdin.resume();
+process.stdin.setEncoding('ascii')
+
 var number_elements='';
 var number_elements_array='';
 var number_currentline=0;
@@ -36,4 +39,3 @@ for(let i=1;i<n;i++){
     }
 }
 console.log(max_high + ''+min_low);
-}
